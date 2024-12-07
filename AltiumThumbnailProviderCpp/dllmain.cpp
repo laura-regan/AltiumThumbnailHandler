@@ -6,10 +6,11 @@
 
 extern HRESULT CAltiumThumbProvider_CreateInstance(REFIID riid, void **ppv);
 
-#define SZ_CLSID_ALTIUMTHUMBHANDLER     L"{50d9450f-2a80-4f08-93b9-2eb526477d1b}"
+#define SZ_CLSID_ALTIUMTHUMBHANDLER     L"{3A6F47E1-138E-4BF8-90C0-3BC0CAC146D9}"
 #define SZ_ALTIUMTHUMBHANDLER           L"Altium Thumbnail Handler"
 
-const CLSID CLSID_AltiumThumbHandler    = {0x50d9450f, 0x2a80, 0x4f08, {0x93, 0xb9, 0x2e, 0xb5, 0x26, 0x47, 0x7d, 0x1b}};
+// {3A6F47E1-138E-4BF8-90C0-3BC0CAC146D9}
+const CLSID CLSID_AltiumThumbHandler    = { 0x3a6f47e1, 0x138e, 0x4bf8, { 0x90, 0xc0, 0x3b, 0xc0, 0xca, 0xc1, 0x46, 0xd9 } };
 
 typedef HRESULT (*PFNCREATEINSTANCE)(REFIID riid, void **ppvObject);
 struct CLASS_OBJECT_INIT
