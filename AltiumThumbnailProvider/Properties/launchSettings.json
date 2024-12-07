@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AltiumThumbnailProvider": {
+      "commandName": "Project",
+      "commandLineArgs": "\"E:\\Projects\\altium-library\\symbols\\Crystals\\SCH - CRYSTALS - CTS OSCILLATOR.SchLib\" 256"
+    }
+  }
+}
